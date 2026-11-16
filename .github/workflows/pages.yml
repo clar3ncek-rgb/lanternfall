@@ -1,4 +1,4 @@
-name: Deploy The Unwritten: Lanternfall to GitHub Pages
+name: "Deploy The Unwritten: Lanternfall to GitHub Pages"
 on:
   push:
     branches: [main]
