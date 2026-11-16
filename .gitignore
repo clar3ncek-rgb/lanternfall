@@ -1,0 +1,20 @@
+# dependencies and builds (the site is built by GitHub Actions)
+node_modules/
+dist/
+artifact/
+# tool logs, AI tester transcripts, local tooling
+*.log
+*.err
+*.jsonl
+.claude/
+.agents/
+.lavish/
+.impeccable/
+samples/
+shots/
+qr-lan.png
+# release packages and advert recordings (not ours to publish)
+itch/*.zip
+_adverts/
+.env
+.env.*

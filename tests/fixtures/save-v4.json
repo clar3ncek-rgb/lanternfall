@@ -1,0 +1,609 @@
+{
+ "v": 4,
+ "seed": 1572142224,
+ "hero": {
+  "name": "Fixture4",
+  "race": "elf",
+  "cls": "rogue",
+  "faith": "redhunt",
+  "form": "mortal"
+ },
+ "life": {
+  "stage": 59,
+  "kills": 8,
+  "foe": {
+   "name": "The Reach-Captain",
+   "hp": 5.59580840735124,
+   "max": 5.595895871592539,
+   "boss": true,
+   "immune": [
+    "magic"
+   ],
+   "weak": [
+    "poison"
+   ],
+   "weakT": 0.1,
+   "cs": 1
+  },
+  "bossLeft": 25.139999999999997,
+  "autoBoss": true,
+  "gold": 5.638403002193149,
+  "heroLevel": 149,
+  "allyLevels": [
+   45,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "mana": 45,
+  "cooldowns": {},
+  "buffs": [],
+  "maxStage": 59,
+  "wanderLeft": 0,
+  "bossAge": 0.1,
+  "bleed": -1000000000,
+  "revived": false,
+  "bossFails": 0,
+  "shatter": 0,
+  "tapN": 2796,
+  "starT": 0,
+  "autoT": {},
+  "fairy": null,
+  "fairyIn": 28.553296114879267,
+  "treasureNext": false,
+  "interestT": 0,
+  "sinceTap": 0.1,
+  "dmgAcc": 5.7531668880839515,
+  "dmgT": 17.399999999999977,
+  "trollHp": 1,
+  "dpsHist": [
+   1.902037409796943,
+   3.287009792126336,
+   4.269823018959496
+  ],
+  "peakDps": 3.8373686392278126,
+  "eventIn": 183.81140444185684,
+  "huntIn": 170.93308945186436,
+  "moments": {
+   "elf": 109,
+   "redhunt": 109
+  },
+  "combo": 0,
+  "event": null,
+  "collector": false,
+  "huntOffer": {
+   "kind": "boss5",
+   "base": 0,
+   "left": 23.799999999999983
+  }
+ },
+ "bestStage": 59,
+ "ranks": {},
+ "embers": -1000000000,
+ "relics": {},
+ "scars": [],
+ "equipped": {
+  "mainHand": {
+   "id": 1,
+   "name": "Worn Dagger",
+   "slot": "mainHand",
+   "rarity": "common",
+   "ilvl": 1,
+   "stats": {
+    "weapon": 3
+   },
+   "look": "blade"
+  },
+  "trinket1": {
+   "id": 2,
+   "name": "Hearth-Locket",
+   "slot": "trinket1",
+   "rarity": "ancestry",
+   "ilvl": 1,
+   "stats": {
+    "agi": 3,
+    "goldPct": 5
+   },
+   "rule": "locket",
+   "ruleText": "Remembers. When you return from death you keep 5% of the gold you had."
+  }
+ },
+ "bag": [
+  {
+   "id": 3,
+   "name": "Grave Hauberk of Rot",
+   "slot": "chest",
+   "rarity": "rare",
+   "ilvl": 7,
+   "stats": {
+    "agi": 6.4,
+    "sta": 3.5,
+    "critDmg": 13,
+    "timerSec": 0.64,
+    "bossPct": 8.2,
+    "tapPct": 7.5
+   }
+  },
+  {
+   "id": 4,
+   "name": "First Grave-Lantern",
+   "slot": "trinket1",
+   "rarity": "legendary",
+   "ilvl": 7,
+   "stats": {
+    "agi": 8.3,
+    "sta": 5.5,
+    "skillPct": 13,
+    "manaRegen": 0.14,
+    "critDmg": 13,
+    "allyPct": 9.7,
+    "bossPct": 16
+   },
+   "fx": {
+    "kind": "fairyStrike",
+    "a": 3
+   },
+   "ruleText": "Each fairy you catch also hits the foe for 3 s of Named damage.",
+   "chase": "grave-lantern"
+  },
+  {
+   "id": 5,
+   "name": "Lantern Gloves",
+   "slot": "hands",
+   "rarity": "uncommon",
+   "ilvl": 10,
+   "stats": {
+    "agi": 6.2,
+    "spi": 4.3,
+    "timerSec": 0.42
+   }
+  },
+  {
+   "id": 6,
+   "name": "Treads",
+   "slot": "feet",
+   "rarity": "common",
+   "ilvl": 11,
+   "stats": {
+    "agi": 5.9,
+    "spi": 3.6
+   }
+  },
+  {
+   "id": 7,
+   "name": "Cowl",
+   "slot": "head",
+   "rarity": "common",
+   "ilvl": 15,
+   "stats": {
+    "spi": 6.5,
+    "str": 4.7
+   }
+  },
+  {
+   "id": 8,
+   "name": "Cracked Pauldrons",
+   "slot": "shoulders",
+   "rarity": "poor",
+   "ilvl": 16,
+   "stats": {
+    "agi": 4.3,
+    "spi": 2.6
+   }
+  },
+  {
+   "id": 9,
+   "name": "Grave Short Blade of Names",
+   "slot": "mainHand",
+   "rarity": "rare",
+   "ilvl": 17,
+   "stats": {
+    "weapon": 17,
+    "agi": 8.9,
+    "goldPct": 9.3,
+    "critDmg": 11,
+    "critChance": 1,
+    "timerSec": 0.82
+   },
+   "look": "blade",
+   "el": "fire"
+  },
+  {
+   "id": 10,
+   "name": "Grave Pauldrons of Silence",
+   "slot": "shoulders",
+   "rarity": "epic",
+   "ilvl": 20,
+   "stats": {
+    "int": 14,
+    "spi": 9,
+    "bossPct": 21,
+    "goldPct": 15,
+    "critChance": 1.3,
+    "skillPct": 13,
+    "critDmg": 13
+   }
+  },
+  {
+   "id": 11,
+   "name": "Morningstar of Dust",
+   "slot": "mainHand",
+   "rarity": "uncommon",
+   "ilvl": 21,
+   "stats": {
+    "weapon": 18,
+    "spi": 11,
+    "critChance": 0.75,
+    "tapPct": 7.9
+   },
+   "look": "mace",
+   "el": "poison"
+  },
+  {
+   "id": 12,
+   "name": "Cracked Band",
+   "slot": "ring1",
+   "rarity": "poor",
+   "ilvl": 23,
+   "stats": {
+    "agi": 6.7,
+    "str": 3.5
+   }
+  },
+  {
+   "id": 13,
+   "name": "Sunken Shroud of the Ferry",
+   "slot": "back",
+   "rarity": "rare",
+   "ilvl": 26,
+   "stats": {
+    "int": 15,
+    "str": 7.8,
+    "manaRegen": 0.14,
+    "goldPct": 11,
+    "skillPct": 17,
+    "allyPct": 11
+   }
+  },
+  {
+   "id": 14,
+   "name": "Codex",
+   "slot": "offHand",
+   "rarity": "common",
+   "ilvl": 30,
+   "stats": {
+    "weapon": 9.5,
+    "sta": 14
+   },
+   "look": "tome"
+  },
+  {
+   "id": 15,
+   "name": "Cracked Mask",
+   "slot": "head",
+   "rarity": "poor",
+   "ilvl": 32,
+   "stats": {
+    "int": 6.8,
+    "spi": 4.9
+   }
+  },
+  {
+   "id": 16,
+   "name": "Cracked Sabatons",
+   "slot": "feet",
+   "rarity": "poor",
+   "ilvl": 37,
+   "stats": {
+    "agi": 9.9,
+    "sta": 4.6
+   }
+  },
+  {
+   "id": 17,
+   "name": "Breeches",
+   "slot": "legs",
+   "rarity": "common",
+   "ilvl": 38,
+   "stats": {
+    "agi": 18,
+    "str": 7.8
+   }
+  },
+  {
+   "id": 18,
+   "name": "Cracked Short Blade",
+   "slot": "offHand",
+   "rarity": "poor",
+   "ilvl": 39,
+   "stats": {
+    "weapon": 8.6,
+    "agi": 10
+   },
+   "look": "blade"
+  },
+  {
+   "id": 19,
+   "name": "Cracked Ring",
+   "slot": "ring1",
+   "rarity": "poor",
+   "ilvl": 40,
+   "stats": {
+    "sta": 11,
+    "int": 5.1
+   }
+  },
+  {
+   "id": 20,
+   "name": "Cracked Wraps",
+   "slot": "wrists",
+   "rarity": "poor",
+   "ilvl": 42,
+   "stats": {
+    "agi": 11,
+    "str": 5.1
+   }
+  },
+  {
+   "id": 21,
+   "name": "Morningstar",
+   "slot": "mainHand",
+   "rarity": "common",
+   "ilvl": 44,
+   "stats": {
+    "weapon": 27,
+    "sta": 16
+   },
+   "look": "mace"
+  },
+  {
+   "id": 22,
+   "name": "Root-Mother's Ring",
+   "slot": "ring1",
+   "rarity": "legendary",
+   "ilvl": 44,
+   "stats": {
+    "agi": 33,
+    "spi": 16,
+    "goldPct": 29,
+    "bossPct": 26,
+    "allyPct": 27,
+    "critChance": 2.1,
+    "critDmg": 36,
+    "skillPct": 28
+   },
+   "fx": {
+    "kind": "drift",
+    "a": 4
+   },
+   "ruleText": "4% chance a cleared stage carries you one further.",
+   "chase": "root-mothers-ring"
+  },
+  {
+   "id": 23,
+   "name": "Mourning Shroud of the Hunt",
+   "slot": "back",
+   "rarity": "epic",
+   "ilvl": 46,
+   "stats": {
+    "agi": 26,
+    "int": 14,
+    "goldPct": 19,
+    "manaRegen": 0.23,
+    "critDmg": 38,
+    "allyPct": 20
+   }
+  },
+  {
+   "id": 24,
+   "name": "Cracked Cape",
+   "slot": "back",
+   "rarity": "poor",
+   "ilvl": 48,
+   "stats": {
+    "int": 10,
+    "sta": 7.8
+   }
+  },
+  {
+   "id": 25,
+   "name": "Hollow Spaulders",
+   "slot": "shoulders",
+   "rarity": "uncommon",
+   "ilvl": 50,
+   "stats": {
+    "spi": 24,
+    "sta": 12,
+    "goldPct": 19,
+    "critDmg": 20
+   }
+  },
+  {
+   "id": 26,
+   "name": "Stiletto of Embers",
+   "slot": "offHand",
+   "rarity": "uncommon",
+   "ilvl": 52,
+   "stats": {
+    "weapon": 22,
+    "int": 21,
+    "manaRegen": 0.21
+   },
+   "look": "blade"
+  },
+  {
+   "id": 27,
+   "name": "Shroud of Embers",
+   "slot": "back",
+   "rarity": "uncommon",
+   "ilvl": 53,
+   "stats": {
+    "spi": 25,
+    "sta": 13,
+    "critChance": 1.3
+   }
+  }
+ ],
+ "nextItemId": 28,
+ "escape": null,
+ "pending": [],
+ "lastSeen": 1762800000000,
+ "returns": 0,
+ "bestReturn": -1000000000,
+ "totalTaps": 2796,
+ "log": [
+  "Caught the swift Blinking Acolyte: +5 Marks.",
+  "Caught the swift Blinking Acolyte: +5 Marks.",
+  "Eclipse! The sky goes dark: +25% crit chance for 30 s.",
+  "Caught the swift Blinking Acolyte: +5 Marks.",
+  "Caught the swift Blinking Acolyte: +5 Marks.",
+  "Caught the swift Reach Guardian: +5 Marks.",
+  "Caught the swift Reach Guardian: +5 Marks.",
+  "Achievement: Coin Counter ★ (+50 Marks)",
+  "Caught the swift Reach Guardian: +5 Marks.",
+  "Caught the swift Blinking Acolyte: +5 Marks.",
+  "Caught the swift Blinking Acolyte: +5 Marks.",
+  "Achievement: Hollow Bane ★ (+50 Marks)",
+  "Milestone chest (stage 50): 301K gold, 20 Marks.",
+  "Achievement: Deep Walker ★ (+50 Marks)",
+  "Caught the swift Blackroot Crawler: +5 Marks.",
+  "Achievement: Piercer ★★ (+50 Marks)",
+  "Caught the swift Crow Swarm: +5 Marks.",
+  "Caught the swift Crow Swarm: +5 Marks.",
+  "Caught the swift Thorn Corpse: +5 Marks.",
+  "Achievement: Sharp Eye ★ (+50 Marks)",
+  "Loot: Mourning Shroud of the Hunt (Epic).",
+  "Caught the swift Blackroot Crawler: +5 Marks.",
+  "Chase item: Root-Mother's Ring!",
+  "Caught the swift Thorn Corpse: +5 Marks.",
+  "Caught the swift Blackroot Crawler: +5 Marks.",
+  "Caught the swift Crow Swarm: +5 Marks.",
+  "Caught the swift Crow Swarm: +5 Marks.",
+  "Achievement: Tapper ★ (+50 Marks)",
+  "Caught the swift Blackroot Crawler: +5 Marks.",
+  "Caught the swift Blackroot Crawler: +5 Marks."
+ ],
+ "xp": 1552.780000000001,
+ "raceRanks": {},
+ "formRanks": {},
+ "spells": {},
+ "points": {
+  "classPt": 0,
+  "formPt": 0
+ },
+ "quest": {
+  "num": 1,
+  "base": 0
+ },
+ "counts": {
+  "taps": 2796,
+  "fightSec": 279.5999999999951,
+  "gold": 6.372616523723443,
+  "kills": 530,
+  "crits": 179,
+  "heroLevels": 148,
+  "bosses": 58,
+  "fastBosses": 58,
+  "treasure": 16,
+  "namedLevels": 45,
+  "immuneKills": 129,
+  "elites": 109,
+  "bishops": 1
+ },
+ "marks": 695,
+ "keys": 1,
+ "eggs": 0,
+ "pets": {},
+ "petsOut": [],
+ "ach": {
+  "bossbreaker": 1,
+  "gold-digger": 1,
+  "drillmaster": 1,
+  "piercer": 2,
+  "tapper": 1,
+  "sharp-eye": 1,
+  "deep-walker": 1,
+  "hollow-bane": 1,
+  "coin-counter": 1
+ },
+ "chest": 50,
+ "daily": {
+  "day": -1,
+  "week": -1,
+  "tasks": [],
+  "weekly": [],
+  "loginDay": 0,
+  "loginGiven": -1
+ },
+ "dungeon": null,
+ "events": [
+  "Level 2: +1 race point.",
+  "Level 3: +1 race point.",
+  "Achievement: Bossbreaker ★ (+50 Marks)",
+  "Achievement: Gold Digger ★ (+50 Marks)",
+  "Level 4: +1 race point.",
+  "Achievement: Drillmaster ★ (+50 Marks)",
+  "Level 5: +1 race point.",
+  "Milestone chest (stage 25): 17.2K gold, 20 Marks.",
+  "⚑ Elf: your keen eyes find elites 50% more often.",
+  "⚑ Red Hunt: elites pay 8x gold, not 5x.",
+  "Achievement: Piercer ★ (+50 Marks)",
+  "Level 6: +1 race point.",
+  "Level 7: +1 race point.",
+  "Achievement: Tapper ★ (+50 Marks)",
+  "Achievement: Sharp Eye ★ (+50 Marks)",
+  "Achievement: Piercer ★★ (+50 Marks)",
+  "Level 8: +1 race point.",
+  "Achievement: Deep Walker ★ (+50 Marks)",
+  "Milestone chest (stage 50): 301K gold, 20 Marks.",
+  "Achievement: Hollow Bane ★ (+50 Marks)",
+  "Achievement: Coin Counter ★ (+50 Marks)",
+  "Level 9: +1 race point."
+ ],
+ "classPaths": {
+  "base": {
+   "tier": 1,
+   "rank": 2,
+   "xp": 162
+  }
+ },
+ "classPath": "base",
+ "forms": [],
+ "formTracks": {
+  "mastery": {
+   "tier": 1,
+   "rank": 2,
+   "xp": 162
+  }
+ },
+ "formOffered": false,
+ "trialBase": {},
+ "eventSeed": 1199730863,
+ "gimmickSeed": 394,
+ "trainPerks": [
+  "crit"
+ ],
+ "landsSeen": [
+  0,
+  1
+ ],
+ "landSplit": true,
+ "gems": 20,
+ "gemsWelcome": true,
+ "eventLog": [
+  "eclipse"
+ ],
+ "gimmicksBeaten": [],
+ "chaseSeed": -1224287735,
+ "chaseFound": [
+  "grave-lantern",
+  "root-mothers-ring"
+ ],
+ "r4Seed": 325711829
+}
